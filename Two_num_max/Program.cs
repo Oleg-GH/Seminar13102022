@@ -1,8 +1,8 @@
 ﻿//Задача о выдаче максимального числа из двух
 Console.Clear();
-Console.Write("Введите первое число: "); 
+Console.Write("a = "); 
 int numberA = int.Parse(Console.ReadLine());
-Console.Write("Введите второе число: ");
+Console.Write("b = ");
 int numberB = int.Parse(Console.ReadLine());
 
 if(numberA > numberB)
