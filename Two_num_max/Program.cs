@@ -6,10 +6,10 @@ int numberB = int.Parse(Console.ReadLine());
 
 if(numberA > numberB)
 {
-    Console.WriteLine($"a = {numberA}, b = {numberB}, -> max = {numberA}");
+    Console.WriteLine($"a = {numberA}, b = {numberB} -> max = {numberA}");
 }
 
 else
 {
-    Console.WriteLine($"a = {numberA}, b = {numberB}, -> max = {numberB}");
+    Console.WriteLine($"a = {numberA}, b = {numberB} -> max = {numberB}");
 }
